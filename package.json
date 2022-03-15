@@ -1,9 +1,13 @@
 {
   "version": "0.0.0",
   "scripts": {
+    "start": "node server.js",
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.3",
+    "sqlite3": "^5.0.2"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@types/node-fetch": "^2.5.10",
